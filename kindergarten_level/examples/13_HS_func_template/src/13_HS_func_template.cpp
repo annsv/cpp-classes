@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 
 template <typename T>
@@ -21,5 +22,9 @@ int main() {
 
 	vector<double> vec2{1.4,2.7,5.3,9,1.2};
 	cout << "Vector 2 last element: " << last(vec2)<<endl;
+
+	vector<string> vec3{"one","two","three"};
+	cout << "Vector 3 last element: " << last(vec3)<<endl;
+
 	return 0;
 }

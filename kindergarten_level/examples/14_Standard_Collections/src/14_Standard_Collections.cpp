@@ -33,7 +33,7 @@ int main() {
 	set<int> s =  {31,32,33,33,33,34,34,35};
 	out<set<int>>(s);
 
-	map<string, int> m = { {"Boris",18}, {"Peter",21}, {"Ann",19} };
+	map<string, int> m = { {"Boris",17}, {"Boris",18}, {"Peter",21}, {"Ann",19} };
 	for(auto el: m){
 		cout << el.first << ":"<< el.second << endl;
 	}

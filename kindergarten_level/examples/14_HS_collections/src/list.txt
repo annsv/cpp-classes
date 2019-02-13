@@ -1,0 +1,5 @@
+<Anna>=<2>
+<Ivan>=<5>
+<Oleg>=<67>
+<Sergey>=<18>
+<Andrey>=<34>
