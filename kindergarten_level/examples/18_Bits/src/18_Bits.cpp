@@ -37,7 +37,8 @@ int main() {
 	}
 
 	//example: RGB pack
-	struct RGBfield {
+	class RGBfield {
+	public:
 		unsigned int R: 4;
 		unsigned int G: 4;
 		unsigned int B: 4;
