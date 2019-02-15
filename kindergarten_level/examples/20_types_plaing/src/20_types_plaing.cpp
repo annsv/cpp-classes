@@ -9,7 +9,7 @@ constexpr size_t sz = 2;
 
 //syntax - 1
 typedef array< array <int, sz> , sz >  matrix;
-typedef int (*ifun)(void);
+typedef int (*ifun)(void);//function that get void(or empty brakets() ) and return int
 
 void fun_in_fun(ifun f)
 {
@@ -59,6 +59,7 @@ int main() {
 
 	DUBLE_TYPE fl = 1.5;
 	cout << fl << endl;
+
 
 	return 0;
 }

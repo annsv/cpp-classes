@@ -32,6 +32,15 @@ namespace A
 	}
 }
 
+int input_int()
+{
+	using std::cin;
+	int a;
+	cout<< "Input integer: " << endl;
+	cin>> a;
+	return a;
+}
+
 namespace C
 {
 	using namespace A::B;
@@ -42,15 +51,18 @@ int main()
 {
 	cout << "OK!" << endl;
 	int i = 0;
-	// cin >> i; //Compilation error
+	//cin >> i; //Compilation error
 	A::print();
 	B::print();
+	input_int();
+
 	cout << A::st << endl;
 	cout << st << endl;
 	A::B::print();
 	C::print();
 	C::cout << "Input integer: " << C::endl;
 	C::cin >> i; // OK
+
 }
 
 /*
